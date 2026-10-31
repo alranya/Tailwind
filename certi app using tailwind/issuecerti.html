@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue certificate page</title>
+ <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class=" bg-slate-200">
+   
+        <div class="flex justify-end mr-1">
+            <form action="./home.html ">
+        <button class=" font-semibold hover:underline">Home</button></form>
+
+        <form action="./issuecerti.html">
+        <button  class="bg-blue-500 hover:bg-blue-400 text-white font-semibold">Issue certificate</button></form>
+    </div>
+     <div class="">
+        <h1 class="text-2xl  font-bold text-start ">Certificate Dapp</h1>
+        </div>
+
+<div class=" bg-white w-250 h-140 m-auto mt-8 pl-8 pt-4">
+
+
+    <form action="./view certificate.html">
+
+<h2 class="text-2xl mb-3">Issue New Certificate</h2>
+         <p class="font-semibold">Select Course</p>
+                
+    <select name="Courses" class="w-100 border border-black">
+    <option value="1">Certified Blockchain Asscociate</option>
+   <option value="2">AI</option>
+    <option value="3">Python</option>
+     <option value="4">Css</option>
+    </select>
+                
+         <p class="font-semibold mt-4">Certification ID</p>
+                   
+     <input type="text" placeholder="Certificate ID" required size="26" class="border border-black w-100" >
+                
+     <p class="font-semibold mt-4">Candidate Name</p>
+                    
+ <input type="text" placeholder="Name" required size="26" class="border border-black w-100">
+               
+         
+    <P class="font-semibold mt-4">Select Grade</P>
+               
+    <select name="Courses" class="border border-black w-100">
+     <option value="1">S</option>
+     <option value="2">A</option>
+    <option value="3">B</option>
+     <option value="4">C</option>
+     </select>
+               
+        <P class="font-semibold mt-4">Issue Date</P>
+                    
+<input type="date" placeholder="" required class="border border-black w-100"><br><br>
+
+     
+<button class="bg-blue-400 hover:bg-blue-300 w-31 font-medium">Issue Certificate</button>
+
+      </form>
+    </div> 
+
+</body>
+</html>
